@@ -24,7 +24,7 @@ const MainLayout = () => {
            {/*header component*/}
  
            <Headercomponent/>
-        <div className={` ${ismenuVisible ? " w-10/12" : "ml-14" } p-8`}>
+        <div className={` ${ismenuVisible ? " w-11/12" : "ml-14" } p-8`}>
         
         <Outlet/>
         </div>

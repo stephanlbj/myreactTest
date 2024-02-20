@@ -17,10 +17,10 @@ const AnalyticsPage = () => {
   return (
     <div className="text-black">
 
-        <p className="text-3xl mt-10">Analytics</p>
+        <p className="text-3xl mt-10 ml-10">Analytics</p>
 
 
-       <section className=" p-5 mt-10 grid grid-cols-1 md:grid-cols-2
+       <section className=" p-5 mt-10 grid grid-cols-1 md:grid-cols-2 ml-10 mx-auto
        lg:grid-cols-4">
         <VisitComponent />
         <DoughnutChart/>
@@ -35,12 +35,12 @@ const AnalyticsPage = () => {
 
        <SupportRequestsTable/>
 
-       <section className="grid grid-cols-1 md:grid-cols-5 gap-10">
+       <section className="grid grid-cols-1 md:grid-cols-4 gap-10 ml-10 mx-auto">
        
        <div className="col-span-2">
        <Calendar/>
         </div>
-        <div className="col-span-2">
+        <div className="col-span-2 ">
         <TasksComponent/>
         </div>
 
