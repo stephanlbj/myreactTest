@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+  --primary: #D0D3D4;
+  --secondary: #424949;
+}
+
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 2px;
+}
